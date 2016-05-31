@@ -1,3 +1,7 @@
-.definition {
-  display:none;
+
+
+.hidden {
+  display: none;
 }
+
+.toggle {height: 150px;}

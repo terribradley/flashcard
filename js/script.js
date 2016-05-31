@@ -1,12 +1,7 @@
 $(document).ready(function(){
-  $(".head").click(function() {
-    $(".definition").slideToggle();
-    $(".head").slideToggle();
+  $(".toggle").click(function() {
+    $(this).children().toggleClass("hidden");
   });
 
-  $(".definition").click(function() {
-    $(".definition").slideToggle();
-    $(".head").slideToggle();
-  });
 
 });
